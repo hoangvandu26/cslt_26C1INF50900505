@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Text;
-namespace bai1
+namespace cslt.baitap3_kieu_du_lieu
 {
     class Program
     {

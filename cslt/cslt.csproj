@@ -5,7 +5,13 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>bai15.Program</StartupObject>
+    <StartupObject>cslt.baitap6_fucntions.bai05</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="baitap3_kieu_du_lieu\**" />
+    <EmbeddedResource Remove="baitap3_kieu_du_lieu\**" />
+    <None Remove="baitap3_kieu_du_lieu\**" />
+  </ItemGroup>
 
 </Project>

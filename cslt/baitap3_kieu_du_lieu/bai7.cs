@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace bai7
+namespace cslt.baitap3_kieu_du_lieu
 {
     class Program
     {
