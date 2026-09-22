@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>cslt.baitap6_fucntions.bai10</StartupObject>
+    <StartupObject>cslt.Session02.ex4</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
