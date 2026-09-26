@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>cslt.baitap7_arrays.ex5</StartupObject>
+    <StartupObject>cslt.baitap7_arrays.linear_search</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
