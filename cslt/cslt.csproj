@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>cslt.baitap7_arrays.array2d</StartupObject>
+    <StartupObject>cslt.jagged_array.ex</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
