@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
-namespace baitp
+namespace cslt.session04
 {
     class Program
     {
