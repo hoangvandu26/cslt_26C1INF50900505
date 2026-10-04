@@ -1,17 +1,61 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace cslt.jagged_array
 {
     internal class ex
-    {   //1.Create a jagged array and initialize it using the following values for its rows and columns; Then, display it.
+    {   
         static void Main()
         {   Console.OutputEncoding = Encoding.UTF8;
+
+
             //ex1();
-            ex2();
+            //ex2();
 
 
+        }
+
+        static void ex3()
+        {
+            string[][,] member =  new string [3][,];
+            static void thong_tin_nhom(string[][,] nhom)
+            {
+                nhom[0] = new string[5, 3]
+                {
+                    {"1001","Nguyen van A","13"},
+                    {"1002","Nguyen van B","19"},
+                    {"1003","Nguyen van C","3"},
+                    {"1004","Nguyen van D","20"},
+                    {"1005","Nguyen van E","21"}
+                };
+                nhom[1] = new string[3, 3]
+                {
+                    {"1006","Nguyen van F","7"},
+                    {"1007","Nguyen van G","29"},
+                    {"1008","Nguyen van H","13"},
+                };
+                nhom[2] = new string[6, 3]
+                {
+                    {"1009","Nguyen van I","7"},
+                    {"1010","Nguyen van J","8"},
+                    {"1011","Nguyen van K","16"},
+                    {"1012","Nguyen van L","26"},
+                    {"1013","Nguyen van M","20"},
+                    {"1014","Nguyen van N","25"}
+                };
+            }
+            static void in_thong_tin(string[][,] nhom)
+            {
+                foreach (string[,] k in nhom)
+                {
+                    for(int i = 0; i< nhom.GetLength(1); i++)
+                    {
+                        Console.WriteLine($"ID: {k[i,0]} ; NAME: {k[i,1]} ; NO TASK: {k[i,2]} ;");
+                    }
+                }
+            }
         }
 
         static void ex2() 
@@ -97,7 +141,7 @@ namespace cslt.jagged_array
             a[i][k] = temp;
         }
         }
-        static void ex1()
+        static void ex1()//1.Create a jagged array and initialize it using the following values for its rows and columns; Then, display it.
         {   int[][,] jagged_arr = new int[4][,];
             jagged_arr[0] = new int[1,5] {{1, 1, 1, 1, 1 }};
             jagged_arr[1] = new int[1,2] {{2,2}};
