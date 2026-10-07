@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>cslt.jagged_array.ex</StartupObject>
+    <StartupObject>cslt.baitap9_string.ex</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
