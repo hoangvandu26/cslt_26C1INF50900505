@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Collections.Generic;
-namespace game_xi_ngau
+namespace cslt.session05
 {
     class game_xi_ngau_
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Text;
-namespace game {
+namespace cslt.session05 {
 class game_doan_so{
     static void Main()
         {
