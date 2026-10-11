@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace cslt.baitap7_arrays
+namespace cslt.session07.baitap7_arrays
 {
-    internal class ex2
+    internal class ex3
     {
         static void Main()
         {
@@ -15,22 +15,21 @@ namespace cslt.baitap7_arrays
             {
                 arr[i] = rnd.Next(1, 50);
             }
-
-            Console.Write("Nhập số để kiểm tra có trong mảng hay không: ");
-            int tim = int.Parse(Console.ReadLine());
-
-            bool kq = false;
-            for (int i = 0; i < 10; i++)
-            {
-               if( arr[i] == tim) { kq = true;break; }
-            }
-            Console.WriteLine("\n"+kq);
+            //
             Console.Write("Mảng: ");
-
             foreach (int i in arr)
             {
                 Console.Write(i + " ");
             }
+            //
+            Console.Write("\nNhập phần tử muốn tìm vị trí trong mảng: ");
+            int so = int.Parse(Console.ReadLine());
+            int vitri = -1;
+            for (int i = 0; i < 10; i++)
+            {
+                if (arr[i] == so) { vitri = i; ; break; }
+            }
+            Console.WriteLine($"Phần tử: {so} --> index {vitri}");
         }
-    }
+        }
 }

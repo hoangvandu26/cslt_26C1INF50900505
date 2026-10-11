@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace cslt.baitap7_arrays
+namespace cslt.session07.baitap7_arrays
 {
     internal class ex5
     {
